@@ -40,7 +40,7 @@ const UpgradeCard = () => {
                     alt="upgrade"
                 />
                 <Paragraph>
-                    Upgrade to <b>MatX PRO</b> for <br /> more resources
+                    <b>Annotation App</b> for <br /> more resources
                 </Paragraph>
                 <Button
                     size="large"
@@ -48,7 +48,7 @@ const UpgradeCard = () => {
                     variant="contained"
                     sx={{ textTransform: 'uppercase' }}
                 >
-                    upgrade now
+                Auto Annotate
                 </Button>
             </StyledCard>
         </CardRoot>

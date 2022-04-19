@@ -45,7 +45,7 @@ const StatCards = () => {
                     <ContentBox>
                         <Icon className="icon">group</Icon>
                         <Box ml="12px">
-                            <Small>New Leads</Small>
+                            <Small>New Annotators</Small>
                             <Heading>3050</Heading>
                         </Box>
                     </ContentBox>
@@ -62,9 +62,9 @@ const StatCards = () => {
                         <Icon className="icon">attach_money</Icon>
                         <Box ml="12px">
                             <Small sx={{ lineHeight: 1 }}>
-                                This week Sales
+                                This week Annotated
                             </Small>
-                            <Heading>$80,500</Heading>
+                            <Heading>80,500</Heading>
                         </Box>
                     </ContentBox>
                     <Tooltip title="View Details" placement="top">
@@ -79,8 +79,8 @@ const StatCards = () => {
                     <ContentBox>
                         <Icon className="icon">store</Icon>
                         <Box ml="12px">
-                            <Small>Inventory Status</Small>
-                            <Heading>8.5% Stock Surplus</Heading>
+                            <Small>Status</Small>
+                            <Heading>8.5%</Heading>
                         </Box>
                     </ContentBox>
                     <Tooltip title="View Details" placement="top">
@@ -95,8 +95,8 @@ const StatCards = () => {
                     <ContentBox>
                         <Icon className="icon">shopping_cart</Icon>
                         <Box ml="12px">
-                            <Small>Orders to deliver</Small>
-                            <Heading>305 Orders</Heading>
+                            <Small>Remaining</Small>
+                            <Heading>30500</Heading>
                         </Box>
                     </ContentBox>
                     <Tooltip title="View Details" placement="top">
